@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10091c">
+<meta name="description" content="TUNIS AI BUSINESS - أدوات تسويق ذكية للمشاريع التونسية">
+<link rel="manifest" href="manifest.webmanifest">
+<title>TUNIS AI BUSINESS</title>
+<style>
+:root{--bg:#0c0813;--panel:#171022;--panel2:#211532;--line:#342348;--purple:#a855f7;--pink:#d946ef;--text:#f7f1ff;--muted:#b7a8c8;--green:#70e1b2}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -10%,#382050 0,transparent 38%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;min-height:100vh}
+header{padding:24px 18px 18px;max-width:760px;margin:auto}
+.brand{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(145deg,#c084fc,#6d28d9);display:grid;place-items:center;font-weight:900;font-size:22px;box-shadow:0 0 28px #9333ea66}
+h1{font-size:20px;margin:0;letter-spacing:.5px} .tag{font-size:11px;color:#c4a5fd;margin-top:3px;letter-spacing:1.4px}
+.hero{margin-top:22px;padding:20px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,#241337,#140d20 70%);box-shadow:0 12px 35px #0005}
+.hero h2{font-size:22px;margin:0 0 8px}.hero p{color:var(--muted);line-height:1.7;margin:0;font-size:14px}
+.pill{display:inline-flex;margin-top:14px;padding:7px 11px;border-radius:30px;background:#3a2056;color:#dfc6ff;font-size:11px}
+main{max-width:760px;margin:auto;padding:0 16px 110px}
+.section-title{font-size:16px;margin:22px 2px 12px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.tile{border:1px solid var(--line);background:linear-gradient(145deg,#1d1429,#130e1c);border-radius:18px;padding:16px;text-align:right;color:var(--text);cursor:pointer;min-height:116px}
+.tile:active,.nav button:active{transform:scale(.98)}.ico{font-size:24px;display:block;margin-bottom:10px}.tile b{display:block;font-size:14px}.tile small{display:block;color:var(--muted);margin-top:5px;line-height:1.5}
+.card{border:1px solid var(--line);background:var(--panel);border-radius:20px;padding:17px;margin-top:13px}
+label{display:block;font-size:13px;color:#e8dafa;margin:13px 0 7px}
+input,textarea,select{width:100%;background:#0e0a16;color:var(--text);border:1px solid #443057;border-radius:12px;padding:13px;font:inherit;outline:none}
+textarea{min-height:95px;resize:vertical}input:focus,textarea:focus,select:focus{border-color:var(--purple);box-shadow:0 0 0 3px #a855f722}
+button.primary{border:0;background:linear-gradient(100deg,#9333ea,#c026d3);color:white;padding:13px 17px;border-radius:13px;font:700 14px system-ui;cursor:pointer;width:100%;margin-top:15px}
+button.secondary{background:#281a39;color:#e9d5ff;border:1px solid #51346d;padding:10px 13px;border-radius:11px;font:600 13px system-ui;cursor:pointer}
+.result{white-space:pre-wrap;line-height:1.8;background:#100b18;border:1px solid #49315f;border-radius:14px;padding:14px;margin-top:14px;font-size:14px;min-height:50px}
+.actions{display:flex;gap:8px;margin-top:10px}.actions button{flex:1}
+.hidden{display:none!important}.back{background:none;border:0;color:#d8b4fe;font:600 14px system-ui;padding:8px 0;cursor:pointer}
+.nav{position:fixed;bottom:0;left:0;right:0;background:#100a19ee;backdrop-filter:blur(14px);border-top:1px solid var(--line);display:flex;justify-content:center;gap:6px;padding:10px 8px calc(10px + env(safe-area-inset-bottom));z-index:5}
+.nav button{background:transparent;border:0;color:var(--muted);font:12px system-ui;padding:7px 13px;border-radius:12px;cursor:pointer}.nav button.active{background:#38204f;color:#f3e8ff}
+.list-item{padding:12px;border:1px solid var(--line);border-radius:13px;margin-top:9px;background:#120d1b}.muted{color:var(--muted);font-size:13px;line-height:1.7}
+footer{text-align:center;color:#78688b;font-size:11px;padding:20px}
+@media(min-width:600px){.grid{grid-template-columns:repeat(3,1fr)}header{padding-top:32px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand"><div class="logo">T</div><div><h1>TUNIS AI BUSINESS</h1><div class="tag">YOUR BUSINESS. YOUR POWER.</div></div></div>
+ <div class="hero"><h2>كبّر مشروعك بطريقة أذكى ✨</h2><p>أدوات تسويقية جاهزة للمشاريع التونسية: حضّر إعلاناتك، أوصاف منتجاتك وردود حرفائك في ثواني.</p><span class="pill">نسخة تجريبية مجانية • بدون API خارجي</span></div>
+</header>
+<main>
+ <section id="home">
+  <h3 class="section-title">اختار الأداة اللي تحتاجها</h3>
+  <div class="grid">
+   <button class="tile" data-tool="ad"><span class="ico">📣</span><b>صانع الإعلانات</b><small>حضّر نص إعلان لمنتجك أو خدمتك</small></button>
+   <button class="tile" data-tool="product"><span class="ico">🛍️</span><b>وصف المنتجات</b><small>وصف جذاب للبيع على الإنترنت</small></button>
+   <button class="tile" data-tool="reply"><span class="ico">💬</span><b>ردود الحرفاء</b><small>ردود جاهزة باللهجة التونسية</small></button>
+   <button class="tile" data-tool="ideas"><span class="ico">💡</span><b>أفكار مشاريع</b><small>اقتراحات حسب المجال والميزانية</small></button>
+   <button class="tile" data-tool="social"><span class="ico">📱</span><b>منشورات السوشيال</b><small>منشور جاهز لفيسبوك وإنستغرام</small></button>
+   <button class="tile" data-tool="tips"><span class="ico">📈</span><b>نصائح تجارية</b><small>خطوات بسيطة لتحسين البيع</small></button>
+  </div>
+  <div class="card"><b>⭐ أعمالك المحفوظة</b><p class="muted">احفظ النتائج المهمة وارجعلها وقت ما تحب.</p><button class="secondary" onclick="showSaved()">عرض المحفوظات</button></div>
+ </section>
+ <section id="tool" class="hidden">
+  <button class="back" onclick="goHome()">← رجوع للرئيسية</button>
+  <div class="card"><h2 id="toolTitle" style="margin:0;font-size:19px"></h2><p id="toolDesc" class="muted"></p><div id="fields"></div><button class="primary" onclick="generate()">إنشاء المحتوى ✨</button><div id="output" class="result hidden"></div><div id="resultActions" class="actions hidden"><button class="secondary" onclick="copyResult()">نسخ النص</button><button class="secondary" onclick="saveResult()">حفظ النتيجة</button></div></div>
+ </section>
+ <section id="saved" class="hidden"><button class="back" onclick="goHome()">← رجوع للرئيسية</button><h3 class="section-title">المحفوظات ⭐</h3><div id="savedList"></div></section>
+ <section id="about" class="hidden"><h3 class="section-title">عن التطبيق</h3><div class="card"><h2>TUNIS AI BUSINESS</h2><p class="muted">أداة مساعدة لصناعة محتوى تسويقي باستعمال قوالب وقواعد محلية. لا تتصل بخدمات ذكاء اصطناعي خارجية ولا ترسل بياناتك إلى خادم.</p><p class="muted">النتائج قوالب قابلة للتعديل وليست نصائح تجارية مضمونة أو توليداً لغوياً مفتوحاً.</p><p class="muted">الإصدار 0.1.0 — نسخة تجريبية</p></div></section>
+</main>
+<nav class="nav"><button class="active" onclick="navTo('home',this)">⌂ الرئيسية</button><button onclick="showSaved(this)">☆ المحفوظات</button><button onclick="navTo('about',this)">ⓘ حول</button></nav>
+<footer>صُنع للمشاريع التونسية 🇹🇳</footer>
+<script>
+const configs={
+ad:{title:"صانع الإعلانات 📣",desc:"أدخل معلومات منتجك ونحضّرلك نص إعلان قابل للتعديل.",fields:[["name","اسم المنتج أو الخدمة","مثال: قهوة مثلجة"],["benefit","أهم ميزة","مثال: بنّة قوية وسعر مناسب"],["price","السعر أو العرض","مثال: 8 دنانير"],["audience","الحرفاء المستهدفون","مثال: الطلبة والشباب"]]},
+product:{title:"وصف المنتجات 🛍️",desc:"اكتب تفاصيل المنتج باش تحصل على وصف منظم للبيع.",fields:[["name","اسم المنتج","مثال: عطر رجالي"],["details","التفاصيل والمميزات","مثال: رائحة منعشة، حجم 100 مل"],["price","السعر","مثال: 35 د.ت"]]},
+reply:{title:"مساعد الردود 💬",desc:"اختار نوع الرسالة وحضّر رد تونسي محترم.",fields:[["customer","رسالة الحريف","مثال: قداش سوم التوصيل؟"],["kind","نوع الرد (اكتب النوع)","السعر / التوصيل / شكوى / شكر"]]},
+ideas:{title:"أفكار مشاريع 💡",desc:"حدّد المجال وميزانيتك للحصول على أفكار بداية.",fields:[["field","المجال","مثال: أكل، ملابس، خدمات رقمية"],["budget","الميزانية","مثال: بدون رأس مال"],["skills","المهارات المتوفرة","مثال: تصميم بالهاتف"]]},
+social:{title:"منشورات السوشيال 📱",desc:"حضّر منشور قصير لصفحتك التجارية.",fields:[["business","نوع النشاط","مثال: محل ملابس"],["offer","العرض أو الموضوع","مثال: تخفيض 20%"],["tone","أسلوب الكتابة","تونسي / رسمي / حماسي"]]},
+tips:{title:"نصائح تجارية 📈",desc:"اكتب نشاطك والمشكل اللي تحب تحسّنو.",fields:[["business","نوع المشروع","مثال: محل حلويات"],["problem","شنوّة تحب تحسّن؟","مثال: زيادة الطلبات"]]}
+};
+let current="",lastResult="";
+function openTool(k){current=k;const c=configs[k];document.getElementById("home").classList.add("hidden");document.getElementById("saved").classList.add("hidden");document.getElementById("about").classList.add("hidden");document.getElementById("tool").classList.remove("hidden");document.getElementById("toolTitle").textContent=c.title;document.getElementById("toolDesc").textContent=c.desc;document.getElementById("fields").innerHTML=c.fields.map(f=>`<label>${f[1]}</label><input id="f_${f[0]}" placeholder="${f[2].replaceAll('"','&quot;')}">`).join("");document.getElementById("output").classList.add("hidden");document.getElementById("resultActions").classList.add("hidden");}
+document.querySelectorAll("[data-tool]").forEach(b=>b.addEventListener("click",()=>openTool(b.dataset.tool)));
+function val(k){return (document.getElementById("f_"+k)?.value||"").trim()}
+function generate(){
+ const v=id=>val(id)||"غير محدد";let s="";
+ if(current==="ad")s=`🔥 ${v("name")} — الاختيار اللي تستحقّه!\n\n${v("benefit")}\n\nالسعر: ${v("price")}\n\nموجّه إلى: ${v("audience")}\n\n📩 ابعثلنا رسالة على الخاص للطلب والاستفسار.\n🚚 اسألنا على تفاصيل التوصيل.\n\n#تونس #تسوق #عرض`;
+ if(current==="product")s=`✨ ${v("name")}\n\nاكتشف ${v("name")} واستمتع بمميزات عملية تناسب احتياجاتك.\n\n⭐ المميزات: ${v("details")}\n💰 السعر: ${v("price")}\n📩 للطلب أو الاستفسار، ابعثلنا رسالة.\n\n*تأكد من صحة كل معلومة قبل النشر.*`;
+ if(current==="reply"){let t=v("kind").toLowerCase();s=`مرحبا بيك 😊\nشكراً على رسالتك واهتمامك.\n\nبالنسبة لاستفسارك: ${v("customer")}\n\n${t.includes("شكوى")?"نعتذرولك على الإزعاج، ونحبّو نفهمو التفاصيل باش نلقاولك حل في أقرب وقت.":t.includes("توصيل")?"يعطيك الصحة! ابعثلنا المنطقة متاعك باش نأكدولك معلوم ووقت التوصيل.":t.includes("سعر")?"أهلا بيك! ابعثلنا اسم المنتج اللي يهمّك ونأكدولك السعر والتفاصيل.":"مرحبا بيك، يسعدنا نعاونك. ابعثلنا التفاصيل ونرجعولك بأقرب وقت."}\n\nنهارك زين 🌟`;}
+ if(current==="ideas")s=`💡 أفكار تنجم تبدأ تدرسها في مجال: ${v("field")}\n\n1. خدمة تصميم منشورات وإعلانات للمحلات.\n2. إعداد وصف المنتجات وكتابة المحتوى.\n3. إدارة صفحات التواصل للمشاريع الصغيرة.\n4. بيع قوالب رقمية أصلية.\n5. خدمة تصوير وعرض المنتجات بالهاتف.\n\nالميزانية: ${v("budget")}\nالمهارات: ${v("skills")}\n\nابدأ باختبار فكرة واحدة مع 3 حرفاء محتملين قبل صرف أي مال.`;
+ if(current==="social")s=`📢 ${v("business")}\n\n${v("offer")}\n\nفرصة باش تكتشفوا الجديد وتستفيدوا من عرضنا!\n📩 للاستفسار والطلب، ابعثلنا رسالة على الخاص.\n\n#تونس #مشروع_تونسي #عروض\n\nالأسلوب المطلوب: ${v("tone")}`;
+ if(current==="tips")s=`📈 خطة تحسين أولية لمشروع: ${v("business")}\n\nالمشكل: ${v("problem")}\n\n1. حدّد حرفاءك الأكثر اهتماماً بخدمتك.\n2. انشر محتوى واضح يبيّن الفائدة والسعر.\n3. استعمل صوراً حقيقية وواضحة للمنتجات.\n4. جاوب على الرسائل بسرعة وبأسلوب محترم.\n5. سجّل عدد الاستفسارات والطلبات كل أسبوع.\n6. جرّب تغييراً واحداً في كل مرة وقارن النتائج.\n\nهذه اقتراحات عامة؛ عدّلها حسب نشاطك.`;
+ lastResult=s;document.getElementById("output").textContent=s;document.getElementById("output").classList.remove("hidden");document.getElementById("resultActions").classList.remove("hidden");
+}
+async function copyResult(){try{await navigator.clipboard.writeText(lastResult);alert("تم نسخ النص");}catch(e){alert("ما نجّمش ننسخ آلياً. اضغط مطوّلاً على النص وانسخو.");}}
+function saveResult(){let a=JSON.parse(localStorage.getItem("tunis_saved")||"[]");a.unshift({title:configs[current].title,text:lastResult,date:new Date().toLocaleDateString("ar-TN")});localStorage.setItem("tunis_saved",JSON.stringify(a.slice(0,50)));alert("تحفظت النتيجة في هاتفك ⭐");}
+function showSaved(btn){document.getElementById("home").classList.add("hidden");document.getElementById("tool").classList.add("hidden");document.getElementById("about").classList.add("hidden");document.getElementById("saved").classList.remove("hidden");let a=JSON.parse(localStorage.getItem("tunis_saved")||"[]");document.getElementById("savedList").innerHTML=a.length?a.map(x=>`<div class="list-item"><b>${x.title}</b><div class="muted">${x.date}</div><p style="white-space:pre-wrap;line-height:1.7">${x.text.replaceAll("&","&amp;").replaceAll("<","&lt;")}</p></div>`).join(""):'<p class="muted">ما عندك حتى نتيجة محفوظة توّا.</p>';if(btn)activate(btn);}
+function goHome(){navTo("home",document.querySelector(".nav button"))}
+function navTo(id,btn){["home","tool","saved","about"].forEach(x=>document.getElementById(x).classList.toggle("hidden",x!==id));if(btn)activate(btn)}
+function activate(btn){document.querySelectorAll(".nav button").forEach(x=>x.classList.remove("active"));btn.classList.add("active")}
+if("serviceWorker" in navigator && location.protocol.startsWith("http"))window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+</script>
+</body></html>

@@ -1,0 +1,11 @@
+{
+  "name": "TUNIS AI BUSINESS",
+  "short_name": "TUNIS AI",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0c0813",
+  "theme_color": "#10091c",
+  "description": "أدوات تسويقية للمشاريع التونسية"
+}
